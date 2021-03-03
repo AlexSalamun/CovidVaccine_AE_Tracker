@@ -1,3 +1,4 @@
+# Part 5
 # Topic Modeling of the Coronavirus Reports
 
 # this portion will calculate the log likelihoods and perplexity scores for each amount of topics
@@ -18,7 +19,7 @@ accuracy_scores <- as.numeric()
 j <- 10
 for (i in 2:j) {
   k <- i
-  mod <- LDA(x=train_dtm, k = k,
+  mod <- LDA(x=,train_dtm k = k,
              method = "Gibbs",
              control=list(alpha = 1, seed=123))
   logLik_score <- cbind(logLik_score, logLik(mod))
