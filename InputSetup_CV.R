@@ -5,10 +5,10 @@ library(gmp)
 library(stringr)
 # create inputs
 # inputs (api_key, drug_name)
-api_key <- "ed1mpkXXygkykpQZhixOimRIvS7rMRvb2BnR9YQI"
+api_key <- ""
 covid_vaccines <- c("BNT162b2","NVX-CoV2373","JNJ-78436735","AZD1222")
 manufacturers <- c("Pfizer","Moderna","Novavax","Johnson & Johnson", "AstraZeneca")
-user_agent <- "alexander.salamun@marquette.edu"
+user_agent <- *"
 
 # Framework of Other Drugs
 checkQuery <- function(x) {
