@@ -10,6 +10,8 @@ Reddit.df$Thread <- gsub(pattern = "\\s+", replacement = " ", x = Reddit.df$Thre
 Reddit.df$Thread <- trimws(Reddit.df$Thread, "both")
 
 
+#### Stop here for personalized text mining
+
 # make a dataframe and vector version of the cleaned threads
 thread.df <- Reddit.df$Thread %>% data.frame()
 
